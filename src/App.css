@@ -1,0 +1,18 @@
+html,body{
+    margin: 0;
+    height: 100%;
+    width: 100%;    position: relative;
+}
+  
+
+:root{
+    --main-bg-color:radial-gradient(circle at 18.7% 37.8%, rgb(7, 7, 7) 0%, rgb(39, 78, 95) 90%);
+    --palette-bg-color:radial-gradient(circle at 18.7% 37.8%, rgb(7, 7, 7) 0%, rgb(78, 137, 215) 90%);
+    --second-bg-color:radial-gradient(circle at 18.7% 37.8%, rgb(0, 0, 0) 0%, rgb(239, 25, 6) 90%);
+    --button-color:linear-gradient(to right, #f12711, #f5af19);
+    --button-hover-color:linear-gradient(to right, #ff5f6d, #ffc371);
+    --button-watched-color:linear-gradient(to right, #ffe000, #799f0c);
+    --watched-hover-color:linear-gradient(to right, #16a085, #f4d03f);
+}
+
+

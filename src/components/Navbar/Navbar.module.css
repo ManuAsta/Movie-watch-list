@@ -1,0 +1,23 @@
+
+
+
+.navbar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0px 15px;
+    font-family:sans-serif;
+    align-items: center;
+    background:var(--main-bg-color);
+    cursor: pointer;
+    color: white;
+    height: 70px;
+    z-index: 1;
+}
+
+.navbar>h3{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    font-weight: 800;
+}

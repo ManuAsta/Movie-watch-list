@@ -1,0 +1,89 @@
+
+.movie-page{
+    position: relative;
+}
+
+h2,h3{
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+
+.movie-layout{
+    width: 95%;
+    margin: auto;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    height: 900px;
+
+    .movie-container{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        button{
+            width: 200px;
+            margin-top: 20px;
+            height: 40px;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+            display: block;
+        }
+        .not-watched{
+            background: var(--button-color);
+            &:hover{
+                background:var(--button-hover-color);
+            }
+        }
+
+        .watched-button{
+            background: var(--button-watched-color);
+            &:hover{
+                background:var(--watched-hover-color);
+            }
+        }
+
+        .edit-button{
+            background: var(--palette-bg-color);
+        }
+        .delete-btn{
+            background: var(--second-bg-color);
+        }
+        .home-btn{
+            background: var(--main-bg-color);
+        }
+    }
+    .details-container{
+        width: 50%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+.reviews{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+
+    .box{
+        width: 100%;
+        box-shadow: 0 0 10px 2px black;
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: cursive;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+}

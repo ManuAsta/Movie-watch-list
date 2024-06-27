@@ -1,0 +1,113 @@
+
+/*add-form*/
+
+.form-container{
+    width: 60%;
+    margin: auto;
+    background: var(--palette-bg-color);
+    color: white;
+    padding:20px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.form-input input{
+    padding: 10px;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    width: 60%;
+    border-radius: 5px;
+    border: none;
+}
+
+.form-input textarea{
+    margin-bottom: 20px;
+    width: 60%;
+    min-height: 60px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-input textarea:focus{
+    outline: 2px solid rgb(255, 0, 242);
+}
+
+.form-input input:focus{
+    outline: 2px solid rgb(255, 0, 242);
+}
+
+.buttons-container button{
+    width: 45%;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 3px 0.1px rgb(246, 246, 246);
+}
+
+.form-input button:hover{
+    transform: scale(1.1);
+}
+
+.buttons-container{
+    width: 40%;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.clear{
+    background:var(--second-bg-color);
+}
+
+.add{
+    background:var(--main-bg-color);
+}
+
+.dropdown{
+    margin-bottom: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.dropdown-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    appearance: none;
+    font-weight: bold;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .dropdown-select:focus {
+    border: 2px solid rgb(255, 0, 242);
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+    outline: none;
+  }
+  
+  .dropdown-select::after {
+    content: '\25BC';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
